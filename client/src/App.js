@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Header from "./Header";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <h1>Page Count: {count}</h1>
     </div>
   );
